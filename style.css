@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #232321;
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Camber-SB', 'NotoSansCJKkr-M';
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 25px;
+}
+h1 {
+    text-align: center;
+}
+.img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.img2{
+    display: block;
+    margin: auto; 
+    width: 80%;
+    
+}
+a {
+    color: black;
+}
+@media only screen and (max-width:480px) {
+    body {
+        font-size: 1.2rem;
+    }
+    .img{
+        width: 60%;
+    }
+    .img2{
+        width: 70%;
+    }
+    
+}
