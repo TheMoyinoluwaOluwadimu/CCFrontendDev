@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(165, 42, 42, 0.541);
+    color: black;
+  font-family: sans-serif;
+  padding: 20px;
+  font-size: 1em;
+ 
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Impact, serif;
+  }
+  .img1{
+    display:block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+    
+  }
+  .img2{
+    display:block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+   
+  }
+  p.sansserif{
+       font-family: Helvetica, Arial, sans-serif;
+       font-weight: bolder;
+  }
