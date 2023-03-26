@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #f7f7f7;
+    color: rgb(49, 48, 48);
+}
+
+.header {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.7em;
+    border-bottom: 2px;
+    border-color: #020202;
+
+
+    font-weight: 70px;
+
+    font-family: sans-serif;
+    color: #29a3d5;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: auto;
+    /* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/anonymous-pro */
+    @import "https://fonts.fontstorage.com/import/anonym.css";
+    font-family: anonymous pro;
+    /*
+	Anonymous Pro, 400, 400 italic, 700, 700 italic
+*/
+
+    color: #29a3d5;
+
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.product {
+    width: 20%;
+    height: 450px;
+    margin: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    
+    border-radius: 10px;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    transition: -4s;
+    background: white;
+    color: rgb(74, 74, 74);
+}
+
+.product:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-15px);
+    
+}
+
+img {
+    width: 97%;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.Visit {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.Visit button {
+    padding: 10px 20px;
+    text-align: center;
+    font-size: .9em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    background: -moz-linear-gradient(120deg, #e0741a, #da4503);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border-color: transparent;
+    letter-spacing: 2px;
+    display: inline-block;
+    transition: .5s;
+}
+.Visit button:hover{
+    transform: scale(1.1);
+}
+#arrow{
+  display: contents;
+  float: left;
+  gap: 20px;
+}
+
+.Reviews {
+    color: rgb(156, 156, 156);
+}
+
+
+.checked {
+    color: orange;
+}
+
+.stars {
+    font-size: 1.2em;
+}
+
+.unchecked {
+    color: transparent;
+    outline: orange;
+    border: orange;
+}
+@media (max-width:1000px) {
+    .product{
+        width: 45%;
+    }
+}
+@media (max-width:750px) {
+    .product{
+        width: 100%;
+    }
+}
