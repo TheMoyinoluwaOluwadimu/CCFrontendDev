@@ -48,16 +48,20 @@ button:hover{
 }
 @media only screen and (max-width: 480px){
     main {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     .box {
-        width: 70%;
-        height: 75vh;
+        width: 95%;
+        
+        height: 77vh;
     }
-    .dress{
-        height: 20%;
+    .dress {
+        height: 25%;
     }
     .size1{
-        height: 75vh;
+        height: 77vh;
+    }
+    p{
+        font-size: 10px;
     }
 }
