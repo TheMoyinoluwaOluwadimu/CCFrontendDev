@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(60, 60, 148);
+    color: white;
+  font-family: sans-serif;
+  padding : 20px;
+  font-size: 1em;
+ 
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: Impact, serif;
+  }
+  .img1{
+    display:block;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    
+    
+  }
+  .img2{
+    display:block;
+    margin: auto;
+    width: 60%;
+    height: 50%;
+    text-align: center;
+   
+  }
+  p.sansserif{
+       font-family: Helvetica, Arial, sans-serif;
+       font-weight: bolder;
+  }
+  a{
+    color: black;
+  }
+  h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+  }
+  
