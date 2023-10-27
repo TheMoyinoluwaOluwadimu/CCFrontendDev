@@ -37,19 +37,3 @@ p{
     padding: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (min-width: 500px) {
-
-    #container{
-        display: flex;
-        width: 400px;
-    }
-
-    #img{
-        margin: auto;
-        border: 1px;
-        border-radius: 10px;
-        padding: 8px;
-        margin-top: 9px;
-        width: 10px;
-    }
-}
