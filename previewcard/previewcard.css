@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+    font-family:'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+    padding: 60px;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+    height: 850px;
+    padding: 10px;
+    background-color:hsl(216, 50%, 16%) ;
+    border: 2px;
+    border-radius: 30px;
+}
+.icon{
+    position: relative;
+    top: -25px;
+}
+.icon2{
+    position: relative;
+    top: -62px;
+    left: -120px;
+} 
+.icon3{
+    position: relative;
+    top: -22px;
+}
+.name{
+    color:hsla(0, 0%, 100%, 0.966);
+}
+img {
+    margin: auto;
+    border: 2px;
+    border-radius: 40px;
+    padding: 10px;
+    margin-top: 12px;
+    width: 480px;
+}h2{
+    text-align: left;
+    padding: 10px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.equilibrium{
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 23px;
+    margin-left: 10px;
+    margin-top: -15px;
+}
+p{
+    color:hsl(215, 51%, 70%);
+    font-size: 18px;
+    text-align: left;
+}
+.ethereum{
+    color: hsl(178, 100%, 50%);
+}
+.clock{
+    text-align: right;
+    position: relative;
+    top: -40px;
+}
+hr{
+     border: none;
+     border-bottom: 1px solid hsl(215, 51%, 70%);
+     margin-left: 35px;
+
+}
